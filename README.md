@@ -1,7 +1,7 @@
 - 👋 Hi, I’m @ihint
 - 👀 I’m interested in financial modeling and AI
-- 🌱 I’m currently learning python
-- 💞️ I’m looking to collaborate on learning how to leverage python to automate machine driven trading strategies
+- 🌱 I’m currently learning Elixir & Python
+- 💞️ I’m learning how to leverage Elixir to deliver novel platforms in Healthcare and Finance
 - 📫 You can reach me at ian@atomandbits.com
 
 <!---
