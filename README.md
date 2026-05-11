@@ -19,6 +19,7 @@ Built across two generations: a legacy runtime/research system and a cleaner AI-
 
 Highlights:
 
+- Automated coverage around the risky parts: ingestion, replay, persistence, schemas, risk gates, registry behavior, and execution-boundary logic.
 - Explicit candidate states: research-only, paper/shadow, recommended, and armed only by human approval.
 - Local-first workflows for messy data, incomplete coverage, scorecards, runbooks, and audit artifacts.
 - Review artifacts that can block a promising candidate when the evidence is thin.
@@ -30,12 +31,11 @@ The core lesson:
 
 Sanitized artifacts I can share:
 
-- Founder-facing case study
-- AETHER control-surface mockup
-- Sanitized promotion packet sample
+- [`aether-case-study`](https://github.com/ihint/aether-case-study): founder-facing case study, AETHER control-surface mockup, and sanitized promotion packet sample.
 
 ## Public Repos To Start With
 
+- `aether-case-study`: sanitized AI research-to-operations case study.
 - `rfp-responder`: AI-assisted document workflow.
 - `claude-code-starter-kit`: agent workflow scaffolding and automation hooks.
 - `atomandbitsweb`: consulting/product strategy site.
@@ -43,4 +43,3 @@ Sanitized artifacts I can share:
 ## Current Focus
 
 I am looking for a small, serious product team building applied AI systems where the hard part is not a demo, but the workflow: context, evaluation, user trust, operational safety, and speed.
-
