@@ -23,7 +23,7 @@ Highlights:
 - Explicit candidate states: research-only, paper/shadow, recommended, and armed only by human approval.
 - Local-first workflows for messy data, incomplete coverage, scorecards, runbooks, and audit artifacts.
 - Review artifacts that can block a promising candidate when the evidence is thin.
-- A control-surface mockup showing state, risk, event context, decision gates, and audit trail.
+- A control surface showing state, risk, event context, decision gates, and audit trail.
 
 The core lesson:
 
@@ -31,7 +31,7 @@ The core lesson:
 
 Sanitized artifacts I can share:
 
-- [`aether-case-study`](https://github.com/ihint/aether-case-study): founder-facing case study, AETHER control-surface mockup, and sanitized promotion packet sample.
+- [`aether-case-study`](https://github.com/ihint/aether-case-study): founder-facing case study, AETHER control surface, and sanitized promotion packet sample.
 
 ## Public Repos To Start With
 
