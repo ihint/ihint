@@ -1,45 +1,38 @@
-# Hi, I'm Ian.
+# Ian Hintz
 
-I build AI-assisted systems for messy, high-stakes workflows: research loops, decision support, evaluation pipelines, and human-in-the-loop control surfaces.
+I build AI-assisted systems for messy, high-stakes workflows: research loops, evaluation pipelines, decision support, and human-in-the-loop control surfaces.
 
-My recent private work is **AETHER**, an AI-assisted research-to-operations platform that turns ambiguous hypotheses and noisy local data into reproducible workflows, replay artifacts, scorecards, candidate registries, and reviewable promotion packets. The repositories are private because they contain operational details and domain-specific logic, but I can share sanitized architecture, design decisions, testing strategy, and representative artifacts.
+```text
+CURRENT WORK    AI RESEARCH -> REVIEWABLE OPERATIONS
+DEFAULT POSTURE EVALUATE BEFORE ACTION
+INTEREST        AGENTS, AUDIT TRAILS, CONTROL SURFACES, OPERATIONAL TRUST
+```
 
-## What I Care About
+## Start Here
 
-- AI products that survive contact with real users, incomplete data, and operational risk.
-- Systems that separate generated ideas from approved actions.
-- Evaluation, auditability, and human control in agentic workflows.
-- Fast prototypes that harden into legible, tested workflows.
+- [`aether-case-study`](https://github.com/ihint/aether-case-study): sanitized artifacts from a private AI-assisted research-to-operations platform.
+- [Live AETHER control surface](https://ihint.github.io/aether-case-study/control-surface.html): state, risk, thesis, event context, approval gates, and audit trail.
 
-## Representative Work
+## AETHER
 
-### AETHER: Private AI Research-To-Operations Platform
+AETHER is a private system I built to turn ambiguous hypotheses and noisy local data into reproducible workflows, replay artifacts, scorecards, candidate registries, and reviewable promotion packets.
 
-Built across two generations: a legacy runtime/research system and a cleaner AI-first research platform.
+The private repositories stay private because they contain operational details and domain-specific logic. The public case study shows the transferable engineering shape: how ideas move through evidence, how positive results can still be blocked, and how human approval stays separate from model-assisted discovery.
 
-Highlights:
-
-- Automated coverage around the risky parts: ingestion, replay, persistence, schemas, risk gates, registry behavior, and execution-boundary logic.
-- Explicit candidate states: research-only, paper/shadow, recommended, and armed only by human approval.
-- Local-first workflows for messy data, incomplete coverage, scorecards, runbooks, and audit artifacts.
-- Review artifacts that can block a promising candidate when the evidence is thin.
-- A control surface showing state, risk, event context, decision gates, and audit trail.
-
-The core lesson:
+Core lesson:
 
 > Useful AI is not just about generating ideas. It is about proving which ideas deserve to move forward.
 
-Sanitized artifacts I can share:
+## What I Care About
 
-- [`aether-case-study`](https://github.com/ihint/aether-case-study): founder-facing case study, AETHER control surface, and sanitized promotion packet sample.
+- AI products that survive incomplete data, skeptical users, and operational risk.
+- Systems that separate generated ideas from approved actions.
+- Evaluation loops, auditability, and human control in agentic workflows.
+- Fast prototypes that harden into legible, tested workflows.
 
-## Public Repos To Start With
+## Public Repos
 
 - `aether-case-study`: sanitized AI research-to-operations case study.
 - `rfp-responder`: AI-assisted document workflow.
 - `claude-code-starter-kit`: agent workflow scaffolding and automation hooks.
 - `atomandbitsweb`: consulting/product strategy site.
-
-## Current Focus
-
-I am looking for a small, serious product team building applied AI systems where the hard part is not a demo, but the workflow: context, evaluation, user trust, operational safety, and speed.
