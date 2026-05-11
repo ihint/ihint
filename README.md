@@ -19,7 +19,6 @@ Built across two generations: a legacy runtime/research system and a cleaner AI-
 
 Highlights:
 
-- 235 passing tests across ingestion, replay, persistence, schemas, risk, registry, relay behavior, and governance.
 - Explicit candidate states: research-only, paper/shadow, recommended, and armed only by human approval.
 - Local-first workflows for messy data, incomplete coverage, scorecards, runbooks, and audit artifacts.
 - Review artifacts that can block a promising candidate when the evidence is thin.
