@@ -36,3 +36,5 @@ Core lesson:
 - `rfp-responder`: AI-assisted document workflow.
 - `claude-code-starter-kit`: agent workflow scaffolding and automation hooks.
 - `atomandbitsweb`: consulting/product strategy site.
+
+Alongside this private systems work, I joined TPN Health after my previous company was acquired. Healthcare keeps the stakes honest: real users, sensitive context, incomplete information, and software that has to earn trust.
