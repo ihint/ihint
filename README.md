@@ -1,4 +1,4 @@
-# Ian Hintz
+# Ian
 
 I build AI-assisted systems for messy, high-stakes workflows: research loops, evaluation pipelines, trading-system infrastructure, and human-in-the-loop control surfaces.
 
