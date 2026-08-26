@@ -1,48 +1,39 @@
-# Ian
+# Ian Harman
 
-I build AI-assisted systems for messy, high-stakes workflows: research loops, evaluation pipelines, trading-system infrastructure, and human-in-the-loop control surfaces.
+**Product leader and hands-on AI builder for healthcare claims and agent commerce.**
 
-My recent private work is **AETHER**, an AI-assisted futures research-to-operations platform that turns ambiguous hypotheses and noisy local market data into reproducible workflows, compiler blueprints, replay/event artifacts, scorecards, candidate registries, promotion gates, and an operator-readable control surface. The repositories are private because they contain operational details and domain-specific logic, but I can share sanitized architecture, design decisions, testing strategy, and representative artifacts.
+I build systems that help people act on complex work without losing control of the decision.
 
-## What I Care About
+At [Atom & Bits](https://atomandbits.com), I am building [Claims Native](https://atomandbits.com/claimsnative/), a paid-pilot beta for independent practices that want to accept insurance without adding a billing department. The current product starts with completed visits, sends judgment calls to a short approval queue, and prepares the next claim package.
 
-- AI products that survive contact with real users, incomplete data, and operational risk.
-- Systems that separate generated ideas from approved actions.
-- Evaluation, auditability, and human control in agentic workflows.
-- Fast prototypes that harden into legible, tested workflows.
-- Trading systems where speed matters but proof matters more.
+I also maintain [Merchant Context](https://github.com/ihint/merchant-context), an open merchant preflight for software agents. It gives agents sourced facts, keeps unknowns visible, and makes approval rules clear before paid or high-impact actions.
 
-## Representative Work
+## Work You Can Inspect
 
-### AETHER: Private AI Research-To-Operations Platform
+- **[Merchant Context](https://github.com/ihint/merchant-context)** — An open schema, checklist, and running MCP/HTTP service for merchant discovery. It returns sources, freshness, unknowns, and safe next actions. A fresh inspection can settle through x402 on Base.
+- **[AETHER case study](https://github.com/ihint/aether-case-study)** — A sanitized view of an AI-assisted market research system. It shows how a hypothesis moves through replay, scorecards, promotion gates, and human approval.
+- **[Claims Native](https://atomandbits.com/claimsnative/)** — A narrow insurance workflow for independent practices, now framed as one payer, one service, one location, and one 90-day test.
+- **[RFP Responder](https://github.com/ihint/rfp-responder)** — An AI-assisted document workflow with a knowledge base, confidence scores, human review, and Word export.
 
-Built across two generations: a legacy runtime/research system and a cleaner AI-first research platform.
+## How I Build
 
-Highlights:
+- Models draft or propose work. People or policy approve actions.
+- Each action keeps a record of what was requested, what happened, and what remains unknown.
+- Tests cover the handoffs where money, claims, or customer trust can fail.
+- A result means an outcome we can prove, not a forecast.
 
-- Automated coverage around the risky parts: ingestion, replay, persistence, schemas, risk gates, registry behavior, compiler behavior, and execution-boundary logic.
-- Explicit candidate states: research-only, review-only, paper-permission, and live approval only by human authority.
-- Local and cloud workflows for messy data, incomplete coverage, scorecards, runbooks, operator state, and audit artifacts.
-- Evidence gates that can kill attractive candidates when cost-adjusted expectancy fails.
-- A control surface showing state, risk, market context, decision gates, next actions, and audit trail.
+## Healthcare Product Record
 
-The core lesson:
+My teams and I have built provider matching, eligibility, claims, repricing, and payment products that:
 
-> Useful AI is not just about generating ideas. It is about proving which ideas deserve to move forward.
+- supported 120 contracted TPAs and 1.5 million eligible lives;
+- reached a first payment in under 30 days and processed more than $1 million in six months; and
+- reached 99.59% first-pass repricing across about 4,000 claims.
 
-Sanitized artifacts:
+I have led up to 18 direct reports and helped teams reach NPS above 60.
 
-- [`aether-case-study`](https://github.com/ihint/aether-case-study): founder-facing case study, AETHER control surface, and sanitized promotion packet sample.
+Recent tools and domains: Python, TypeScript, Elixir, SQL, FastAPI, React, Postgres, Cloudflare Workers, MCP, and X12 EDI.
 
-## Public Repos To Start With
+## Let’s Talk
 
-- `aether-case-study`: sanitized AI research-to-operations case study.
-- `rfp-responder`: AI-assisted document workflow.
-- `claude-code-starter-kit`: agent workflow scaffolding and automation hooks.
-- `atomandbitsweb`: consulting/product strategy site.
-
-## Current Focus
-
-I am looking for a small, serious team building applied AI systems where the hard part is not a demo, but the workflow: context, evaluation, infrastructure, operational safety, and speed.
-
-Alongside this private systems work, I joined TPN Health after my previous company was acquired. Healthcare keeps the stakes honest: real users, sensitive context, incomplete information, and software that has to earn trust.
+If you are building healthcare infrastructure or applied AI and need a product leader who can work from strategy through code, [email me](mailto:Ian@atomandbits.com) or [connect on LinkedIn](https://www.linkedin.com/in/ianjharman).
