@@ -1,6 +1,6 @@
 # Ian Harman
 
-**Healthcare product leader and hands-on AI builder, from clinical matching to claims and payment.**
+**Healthcare product leader and hands-on builder in the B2B and B2B2C space.**
 
 I co-founded and built [TheraMatch](https://atomandbits.com/work/theramatch/), a clinical matching product acquired as part of All Counseling by TPN.health in 2025 ([announcement](https://tpn.health/resources/news/tpn.health-acquires-all-counseling-to-advance-behavioral-health-access-and-provider-client-matching)). After the acquisition, my work widened from matching to the systems behind provider networks, eligibility, claims, ledgers, treasury, and payment.
 
